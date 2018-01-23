@@ -1,0 +1,196 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+	<category>
+
+		<pattern>EATERIES</pattern>
+		<template> Four eateries are there.  </template>
+
+	</category>
+
+	<category>
+
+		<pattern>* EATERIES *</pattern>
+		<template><srai>EATERIES</srai></template>
+
+	</category>
+
+	<category>
+
+		<pattern>* EATERIES</pattern>
+		<template><srai>EATERIES</srai></template>
+
+	</category>
+
+		<category>
+
+		<pattern>EATERIES *</pattern>
+		<template><srai>EATERIES</srai></template>
+
+	</category>
+
+	<category>
+
+		<pattern>NAME * EATERIES</pattern>
+		<template>C3, Yumpy's and BnB !!</template>
+
+	</category>
+
+	<category>
+
+		<pattern>NAME EATERIES</pattern>
+		<template>C3, Yumpy's and BnB !!</template>
+
+	</category>
+
+	<category>
+
+		<pattern>NAME * EATERIES?</pattern>
+		<template>C3, Yumpy's and BnB !!</template>
+
+	</category>
+
+	<category>
+
+		<pattern>* NAME * EATERIES</pattern>
+		<template>C3, Yumpy's and BnB !!</template>
+
+	</category>
+
+	<category>
+
+		<pattern>TIMINGS</pattern>
+		<template>Which one?</template>
+
+	</category>
+
+	<category>
+		
+		<pattern>* TIMINGS *</pattern>
+		<template>Which one?</template>
+
+	</category>
+
+
+	<category>
+
+		<pattern>YUMPY'S</pattern>
+		<template>10 a.m. - 2 a.m.</template>
+
+	</category>
+
+
+	<category>
+
+		<pattern>TIMING YUMPYS</pattern>
+		<template>10 a.m. - 2 a.m.</template>
+
+	</category>
+
+
+	<category>
+
+		<pattern>TIMING C3</pattern>
+		<template>5 p.m. - 1 a.m.</template>
+	
+	</category>
+
+
+	<category>	
+
+		<pattern>TIMING BNB</pattern>
+		<template>12 p.m. - 8 p.m.</template>
+
+	</category>
+
+		<category>
+
+		<pattern>REVIEW C3</pattern>
+		<template>It is the Best!</template>
+
+		</category>
+
+			<category>
+
+		<pattern>REVIEW BNB</pattern>
+		<template>It seems to be overpriced!!</template>
+
+		</category>
+
+			<category>
+
+		<pattern>REVIEW YUMPYS</pattern>
+		<template>Unhygenic and horribly managed!</template>
+
+		</category>
+
+		
+
+
+	<category>
+
+		<pattern>MENU C3</pattern>
+		<template>Ragda Chat, Dosa, Daily Specials, Drinks and Combos</template>
+
+	</category>
+
+
+	<category>
+
+		<pattern>C3</pattern>
+		<template><srai>MENU C3</srai></template>
+
+	</category>
+
+
+
+		<category>
+
+		<pattern>MENU BNB</pattern>
+		<template>Burger, Sandwitch, Puffs and Rolls</template>
+
+		</category>
+
+		<category>
+
+		<pattern>BNB</pattern>
+		<template><srai>MENU BNB</srai></template>
+
+		</category>
+
+		<category>
+
+		<pattern>* BNB</pattern>
+		<template>Burger, Sandwitch, Puffs and Rolls</template>
+
+		</category>
+
+		<category>
+
+		<pattern>MENU YUMPYS</pattern>
+		<template>Maggi, Fries, Tea, Coffee</template>
+		</category>
+
+		<category>
+
+		<pattern>YUMPYS</pattern>
+		<template><srai>MENU YUMPYS</srai></template>
+
+		</category>
+
+		<category>
+
+		<pattern>* YUMPYS</pattern>
+		<template>Maggi, Fries, Tea, Coffee</template>
+		</category>
+
+
+		<category>
+
+		<pattern>* best</pattern>
+		<template>C3</template>
+		</category>
+
+
+
+
+</aiml>

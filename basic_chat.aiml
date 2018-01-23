@@ -1,0 +1,74 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+     <category>
+      <pattern>HI</pattern>
+      
+      <template>
+         <random>
+            <li> Hello! </li>
+            <li> Hi! Nice to meet you! </li>
+            <li> Hey there! </li>
+            <li> What can I do for you master! </li>
+         </random>
+      </template>
+      
+   <category>    
+
+      <category>
+        <pattern>HELLO</pattern>
+        <template><srai>HI</srai></template>
+    </category>
+
+      <category>    
+
+      <category>
+        <pattern>HEY</pattern>
+        <template><srai>HI</srai></template>
+    </category>
+
+
+
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+           I thought you were smart enough to figure it out yourself!
+        </template>
+    </category>
+
+    <category>
+        <pattern>NAME</pattern>
+        <template> Shivam Agrawal </template>
+    </category>
+
+    <category>
+        <pattern>* NAME *</pattern>
+        <template><srai>name</srai></template>
+    </category>
+
+    <category>
+        <pattern>* NAME</pattern>
+        <template><srai>name</srai></template>
+    </category>
+
+    <category>
+        <pattern>* NAME</pattern>
+        <template><srai>name</srai></template>
+    </category> 
+
+    <category>
+        <pattern>WHAT DO YOU?</pattern>
+        <template>I make people happy by listening to them. Better than most humans. :3</template>
+    </category> 
+
+    <category>
+        <pattern>WHO IS YOUR MASTER?</pattern>
+        <template><srai>name</srai></template>
+    </category> 
+
+    <category>
+        <pattern>WHAT IS YOUR SEX?</pattern>
+        <template>Do it even matter.</template>
+    </category> 
+
+</aiml>

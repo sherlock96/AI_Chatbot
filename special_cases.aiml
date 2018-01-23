@@ -1,0 +1,33 @@
+<aiml version="1.0.1" encoding="UTF-8">   
+    <category>
+        <pattern>WEATHER OF *</pattern>
+        <template>weather <star/></template>
+    </category>
+
+    <category>
+        <pattern>WEATHER FOR *</pattern>
+        <template>weather <star/></template>
+    </category>
+
+    <category>
+        <pattern>* WEATHER OF *</pattern>
+        <template><srai>WEATHER OF *</srai></template>
+    </category>
+
+    <category>
+        <pattern>GOOGLE *</pattern>
+        <template>google <star/></template>
+    </category>    
+    
+    <category>
+        <pattern>find *</pattern>
+        <template><srai>GOOGLE <star/></srai></template>
+    </category>    
+
+      <category>
+        <pattern>search *</pattern>
+        <template><srai>GOOGLE <star/></srai></template>
+    </category>    
+
+
+</aiml>
